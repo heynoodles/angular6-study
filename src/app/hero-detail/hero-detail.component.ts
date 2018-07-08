@@ -34,7 +34,7 @@ export class HeroDetailComponent implements OnInit {
 
   save(): void {
     this.heroService.updateHero(this.hero)
-      .subscribe(() => this.getBack());
+      .subscribe(() => this.goBack());
   }
 
 }
